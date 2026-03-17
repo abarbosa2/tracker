@@ -5,10 +5,10 @@ documen .addEventListener ('click', function(event){
         //remonter dans article.card
         let carte = event.target.closest('.card');
         //descendre dans strong.value
+        let counter = card .querySelector('.value');
         //transformer la valeur
         //sauver la transformation
     }
 });
-
 
 //console.log(..); = afficher 
